@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+}
+
+.main-banner {
+    width: 100%;
+    height: 300px;
+    background: #334566;
+    font-family: Great Vibes;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+}
+
+.main-nav {
+    width: 100%;
+    height: 75px;
+    background: rgb(136,47,34);
+    text-align: center;
+    font-family: Great Vibes;
+    float: left;
+}
+
+.main-nav a {
+    color: white;
+    font-family: Great Vibes;
+}
+
+
+.sidebar {
+    width: 20%;
+    float: left;
+    background: rgb(244,212,66);
+    height: 750px; 
+    text-align: left;
+    color: black;
+}
+
+.sidebar ul {
+        text-align: left;
+        font-family: Great Vibes;
+        font-size: 25px;
+        /*position: absolute;*/
+        line-height: 50px;
+        
+}
+
+.sidebar ul li {
+        text-align: left;
+        font-family: Great Vibes;
+        font-size: 25px;
+        /*position: absolute;*/
+        list-style-type: none;
+        line-height: 50px;
+    /*  width: 33%;
+        height: 33%;
+        float: both; */
+        
+}
+
+.sidebar ul li a {
+    color: blue;
+}
+
+.main-content {
+    width: 80%;
+    float: right;
+    background: #9E8400;
+    height: 750px;
+}
+
+.container-blog {
+    margin: auto;
+    width: 960px;
+}
+
+.blog-content {
+    width: 100%;
+    margin: auto;
+    float: both;
+    text-align: center;
+    /*background: #9E8400;*/
+    font-family: Great Vibes;
+    font-size: 25px;
+    color: black;
+    height: 750px
+}    
+
+.pirate-girl img {
+    width: 25%;
+    height: 25%;
+}
+
+p {
+    margin: 0;
+    text-align: justify;
+}
+   
+.container-destinations {
+    margin: auto;
+    width: 960px;
+}
+
+.destinations-content {
+    width: 100%;
+    float: right;
+    /*background: #9E8400;*/
+    height: 500px;
+    font-family: Great Vibes;
+    font-size: 25px;
+    color: black;
+    height: 750px
+}
+
+.marinas-content {
+    width: 100%;
+    float: right;
+    /*background: #9E8400;*/
+    height: 500px;
+    font-family: Great Vibes;
+    font-size: 25px;
+    color: black;
+    height: 750px
+}
+
+.marinas-content a {
+    color: black;
+}
+
+.footer {
+    background: #334566;
+    clear: both;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-family: Great Vibes;
+    font-size: 25px;
+}
+
+.footer ul li, .main-nav ul li {
+    list-style-type: none;
+    float: left;
+    font-family: Great Vibes;
+    font-size: 25px;
+    text-align: center;
+    width: 33.333%;
+    line-height: 50px;
+    color:white;
+}
+
+.footer ul, .main-nav ul {
+    width: 75%;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+/*impact*/
+h1 {
+    text-align: center;
+    background-color: white;
+} 
+/*specifically added this to have background color white*/
